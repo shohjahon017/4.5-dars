@@ -155,3 +155,129 @@
 //     console.log("5 va 7 ga karrali");
 //   }
 // }
+
+//2-masala
+// for (let i = 1; i <= 12; i++) {
+//   switch (i) {
+//     case 1:
+//       console.log("yanvar");
+//       break;
+//     case 2:
+//       console.log("fevral");
+//       break;
+//     case 3:
+//       console.log("mart");
+//       break;
+//     case 4:
+//       console.log("aprel");
+//       break;
+//     case 5:
+//       console.log("may");
+//       break;
+//     case 6:
+//       console.log("iyun");
+//       break;
+//     case 7:
+//       console.log("iyul");
+//       break;
+//     case 8:
+//       console.log("avgust");
+//       break;
+//     case 9:
+//       console.log("sentabr");
+//       break;
+//     case 10:
+//       console.log("oktabr");
+//       break;
+//     case 11:
+//       console.log("noyabr");
+//       break;
+//     case 12:
+//       console.log("dekabr");
+//       break;
+
+//     default:
+//       console.log("Bunday oy mavjud emas");
+
+//       break;
+//   }
+// }
+
+//3-masala
+// let i = 1;
+// while (i <= 100) {
+//   if (i % 2 == 0) {
+//     continue;
+//   }
+//   if (i == 77) {
+//     break;
+//   }
+//   i++;
+// }
+
+//4-masala
+// let i = 1;
+// while (i <= 7) {
+//   switch (a) {
+//     case 1:
+//       console.log("dushanba");
+//       break;
+//     case 2:
+//       console.log("seshanba");
+//       break;
+//     case 3:
+//       console.log("chorshanba");
+//       break;
+//     case 4:
+//       console.log("payshanba");
+//       break;
+//     case 5:
+//       console.log("juma");
+//       break;
+//     case 6:
+//       console.log("shanba");
+//       break;
+//     case 7:
+//       console.log("yakshanba");
+//       break;
+//     default:
+//       console.log("Bunday hafta kuni mavjud emas");
+//       break;
+//   }
+//   i++;
+// }
+
+//5-masala
+// let i = +prompt('sonni kirting');
+// do {
+//   console.log(i);
+
+//   if (a > 0) {
+//     console.log("musbat");
+//   }
+
+//   i++;
+// } while (i <= 100);
+// {
+//   if (a < 0) {
+//     console.log("manfiy");
+//   } else {
+//     console.log("nol");
+//   }
+// }
+
+//6-masala
+let i = +prompt("sonni kirting");
+
+//7-masala
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 == 0 && i % 5 == 0) {
+    console.log("FizzBuzz");
+  }
+  if (i % 3 == 0) {
+    console.log("Fizz");
+  }
+  if (i % 5 == 0) {
+    console.log("Buzz");
+  }
+}
